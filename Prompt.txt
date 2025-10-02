@@ -1,0 +1,28 @@
+Title name:
+
+Al Agent for Cybersecurity Incident Report Generation and Analysis
+
+Problem Statement:
+
+Cybersecurity teams spend significant time manually compiling incident reports from raw logs and alerts, delaying response and analysis.
+
+Steps:
+
+Ingest raw security logs, alerts, and incident notes.
+
+Use an Al agent to extract critical incident details and summarize attack vectors.
+
+Generate structured incident reports with recommended mitigation steps.
+
+Provide a conversational interface for analysts to explore incident data.
+
+Data Requirements:
+
+Security logs, alert messages, incident notes from SIEM systems or cybersecurity platforms in text or JSON format.
+
+Expected Output:
+
+Structured incident reports summarizing key details and mitigation recommendations in text or JSON, Interactive Q&A for incident exploration.
+
+-- Build an application which will pick the log files dynamical every 30 sec and generate the report which will be used to raise in incidence in corporate.
+-- This api/application used an interactive so, it shall reply us with the appropriate answers if question is being asked relavent to the report analysis
