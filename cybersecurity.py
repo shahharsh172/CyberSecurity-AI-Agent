@@ -50,7 +50,7 @@ def initialize_ai_client():
     try:
         client = httpx.Client(verify=False)
         return OpenAI(
-            base_url="https://genailab.tcs.in",
+            base_url="https://genailab.in",
             api_key="sk-h8b9XM-6gT6Mli",
             http_client=client
         )
